@@ -38,7 +38,7 @@ public class CropService {
             produ.setProductType(product.getProductType());
             produ.setLocation(product.getLocation());
             this.croprepo.save(produ);
-            return "Product detail is updated";
+            return "Product detail updated";
         } else {
             return "Product detail is not updated";
         }
